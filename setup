@@ -12,13 +12,13 @@ _ArankBot_zip () {
 
 _starter () {
     echo "••• Downloading ArankBot [v3] •••"
-    hellpath="Plugins.zip"
+    arankpath="Plugins.zip"
 
-    wget -q $(_ArankBot_zip) -O "$hellpath"
-    HELLPATH=$(zipinfo -1 "$hellpath" | grep -v "/.");
-    unzip -qq "$aranklpath"
-    rm -rf "$hellpath"
-    cd $HELLPATH
+    wget -q $(_ArankBot_zip) -O "$arankpath"
+    ARANKPATH=$(zipinfo -1 "$arankpath" | grep -v "/.");
+    unzip -qq "$arankpath"
+    rm -rf "$arankpath"
+    cd $arankPATH
     python3 ../updater.py ../requirements.txt requirements.txt
 
     echo "••• Starting ArankBot [v3] •••"
