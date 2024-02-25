@@ -43,10 +43,12 @@
         "HEROKU_APPNAME": {
             "description": "Your heroku app name. Get it from the top of this page.",
             "value": ""
+            "required": false
         },
         "HEROKU_APIKEY": {
             "description": "Heroku api key. Get it from https://dashboard.heroku.com/account",
             "value": ""
+            "required": false
         },
         "PLUGINS_REPO": {
             "description": "Fillup the username/reponame of the plugins repo.",
